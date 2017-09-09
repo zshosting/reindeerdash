@@ -7,9 +7,8 @@
  */
  
  body {
-  background: url('../imgs/background.png') no-repeat left top #082f3d;
+  background: url('../imgs/background.png') no-repeat bottom right #082f3d; background-attachment:fixed;
  }
- 
  .custom-red {
   background-color: #EE2212 !important;
 }
