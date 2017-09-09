@@ -17,58 +17,28 @@
  </head>
 <body>
   <div class="navbar-fixed">
-    <nav class="red">
+    <nav class="custom-red">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="index.html" style="font-size: 20px;">Reindeer Dash Quilt Run</a>
-		  <ul class="right hide-on-med-and-down">
+        <a id="logo-container" href="index.html" style="font-size: 16px;">Reindeer Dash</a>
+		  <ul class="right">
 			 <li><a href="stores.html">Stores</a></li>
 		  </ul>
-		  <ul id="nav-mobile" class="side-nav">
-			<li><a href="store.html">Stores</a></li>
-		  </ul>
-		<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
   </div>
-  
-  <div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-</div>
-  
     <div class="container">
+		<script type="text/javascript" src="https://hcodes.github.io/snowflakes/snowflakes.js"></script>
+	    <script>
+			var sf = new Snowflakes({
+				container: document.getElementById('container'),
+				count: 20, // 50 snowflakes. Default: 30
+				delay: 20, // The property affects the speed of falling, ms. Default: 20
+			});
+	    </script>
 		<div id="process"></div>
 		<div class="section">
 			<div class="row center">
-				<img src="../imgs/homepage.png" width="80%">
+				<img src="../imgs/homepage.png" width="90%">
 			</div>
 		</div>
 	</div>
