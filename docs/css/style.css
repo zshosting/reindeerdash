@@ -7,7 +7,6 @@
  */
  
  body {
-  background: url('../imgs/background.png') no-repeat bottom right #082f3d; background-attachment:fixed;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -21,12 +20,12 @@
 }
   
   
-@media screen and (max-width: 624px){
+@media screen and (max-width: 600px){
     body {
         background: url('../imgs/background-sm.png') no-repeat bottom right #082f3d; background-attachment:fixed;
     }
 }
-@media screen and (min-width: 625px){
+@media screen and (min-width: 601px){
     body {
         background: url('../imgs/background.png') no-repeat bottom right #082f3d; background-attachment:fixed;
     }
