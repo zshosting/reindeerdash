@@ -21,6 +21,17 @@
 }
   
   
+@media screen and (max-width: 624px){
+    body {
+        background: url('../imgs/background-sm.png') no-repeat bottom right #082f3d; background-attachment:fixed;
+    }
+}
+@media screen and (min-width: 625px){
+    body {
+        background: url('../imgs/background.png') no-repeat bottom right #082f3d; background-attachment:fixed;
+    }
+}
+  
  .custom-red {
   background-color: #EE2212 !important;
 }
