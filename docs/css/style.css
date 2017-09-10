@@ -16,6 +16,10 @@
     flex: 1 0 auto;
   }
   
+  nav ul a {
+  padding: 0 10px !important;
+}
+  
   
  .custom-red {
   background-color: #EE2212 !important;
