@@ -21,7 +21,7 @@
   
   
 body {
-        background: url('../imgs/background.png') no-repeat bottom right #082f3d; background-attachment:fixed;
+        background: url('../imgs/background.png') no-repeat center bottom #ffffff; background-attachment:fixed;
     }
   
  .custom-red {
