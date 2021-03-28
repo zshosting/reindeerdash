@@ -1,6 +1,0 @@
-User-agent: dotbot 
-Disallow: /
-User-agent: Yandex 
-Disallow: /
-User-agent: Baiduspider
-Disallow: /
