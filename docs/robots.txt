@@ -1,6 +1,16 @@
+User-Agent: *
+Disallow: /old/
+/old/2017/
+/old/2018/
+/old/2019/
+/old/2020/
+/*.docx$
+/*.ai$
 User-agent: dotbot 
 Disallow: /
 User-agent: Yandex 
 Disallow: /
 User-agent: Baiduspider
+Disallow: /
+User-agent: Uptimebot
 Disallow: /
