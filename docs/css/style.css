@@ -18,6 +18,10 @@
   nav ul a {
   padding: 0 10px !important;
 }
+
+.page-footer {
+    position: relative;
+}
   
 	img.bg {
 			/* Set rules to fill background */
